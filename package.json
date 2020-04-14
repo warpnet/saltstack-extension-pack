@@ -1,0 +1,16 @@
+{
+    "name": "saltstack-extension-pack",
+    "displayName": "saltstack-extension-pack",
+    "description": "SaltStack Extension Pack",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "warpnet.salt-lint",
+        "korekontrol.saltstack"
+    ]
+}
