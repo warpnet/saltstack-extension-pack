@@ -3,12 +3,23 @@
     "displayName": "saltstack-extension-pack",
     "description": "SaltStack Extension Pack",
     "version": "0.0.1",
+    "publisher": "warpnet",
+    "homepage": "https://github.com/warpnet/saltstack-extension-pack",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/warpnet/saltstack-extension-pack.git"
+	},
     "engines": {
         "vscode": "^1.44.0"
     },
     "categories": [
         "Extension Packs"
     ],
+    "keywords": [
+		"saltstack",
+		"salt",
+		"salt-lint"
+	],
     "extensionPack": [ 
         "warpnet.salt-lint",
         "korekontrol.saltstack"
